@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.form {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.downloadButton {
+  margin: 4px 0;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #282c34 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.deleteButton {
+  cursor: pointer;
+  color: red;
+}
